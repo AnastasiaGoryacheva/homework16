@@ -101,9 +101,9 @@ def insert_offers(offers_):
 users_ = open_file("user_json.json")
 orders_ = open_file("order_json.json")
 offers_ = open_file("offer_json.json")
-# insert_users(users_)
-# insert_orders(orders_)
-# insert_offers(offers_)
+insert_users(users_)
+insert_orders(orders_)
+insert_offers(offers_)
 
 
 @app.route("/users/", methods=['GET', 'POST'])
